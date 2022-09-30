@@ -100,6 +100,7 @@ function App() {
   };
   useEffect(() => {
     IsConnected();
+    gettingBalance();
   }, [isWalletConnected]);
   return (
     <div className="App">
